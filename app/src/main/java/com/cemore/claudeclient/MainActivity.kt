@@ -14,7 +14,6 @@ import androidx.fragment.app.FragmentActivity
 import com.cemore.claudeclient.ui.theme.ClaudeClientTheme
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class MainActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
